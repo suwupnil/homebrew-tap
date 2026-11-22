@@ -6,20 +6,20 @@ class NewnewtonMcp < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/suwupnil/newNewton/releases/download/v1.4.0/newton-mcp-server-v1.4.0-macos-arm64.tar.gz"
-      sha256 "47fe007a54a9662488ce2b6aa668fd98fc4b88afdb9c76db91d014b197e595c2"
+      sha256 "47fe007a54a9662488ce2b6aa668fd98fc4b88afdb9c76db91d014b197e595c2" # macos-arm64
     else
       url "https://github.com/suwupnil/newNewton/releases/download/v1.4.0/newton-mcp-server-v1.4.0-macos-arm64.tar.gz"
-      sha256 "47fe007a54a9662488ce2b6aa668fd98fc4b88afdb9c76db91d014b197e595c2"
+      sha256 "47fe007a54a9662488ce2b6aa668fd98fc4b88afdb9c76db91d014b197e595c2" # macos-x86_64
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/suwupnil/newNewton/releases/download/v1.4.0/newton-mcp-server-v1.4.0-linux-arm64.tar.gz"
-      sha256 "1ad783e923182fa45edb2eaa79313d150e1dd431a477e11ef578e0a9a61ee53a"
+      sha256 "1ad783e923182fa45edb2eaa79313d150e1dd431a477e11ef578e0a9a61ee53a" # linux-arm64
     else
       url "https://github.com/suwupnil/newNewton/releases/download/v1.4.0/newton-mcp-server-v1.4.0-linux-x86_64.tar.gz"
-      sha256 "b7ed48b9492ca533b4d4a5e2007feaeb71103132400cbc47c8913bcb64e9667f"
+      sha256 "b7ed48b9492ca533b4d4a5e2007feaeb71103132400cbc47c8913bcb64e9667f" # linux-x86_64
     end
   end
 
